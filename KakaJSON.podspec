@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "KakaJSON"
-  s.version     = "1.0.0"
+  s.version     = "1.1.1"
   s.summary     = "Fast conversion between JSON and model in Swift"
   s.homepage    = "https://github.com/kakaopensource/KakaJSON"
   s.license     = { :type => "MIT" }
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
 
   s.source   = { :git => "https://github.com/kakaopensource/KakaJSON.git", :tag => s.version }
-  s.source_files = "KakaJSON/**/*.swift"
+  s.source_files = "Sources/KakaJSON/**/*.swift"
 end
